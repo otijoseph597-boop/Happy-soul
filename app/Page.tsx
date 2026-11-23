@@ -27,7 +27,7 @@ export default function Home() {
 
   const order = (b: any) => {
     const msg = `Hello Happy Soul! I want to buy ${network} ${b.name} for GHC ${b.price}. Please send me payment details.`;
-    window.open(`https://wa.me/233550000000?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/233597832036?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
