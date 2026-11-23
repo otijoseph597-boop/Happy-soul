@@ -8,7 +8,7 @@ export default function Home() {
   const [name, setName] = useState("");
 
   const orderText = `Hello Happy Soul! I want to buy ${selected.label} for GHC ${selected.price}. My number: ${phone} Name: ${name}`;
-  const whatsappLink = `https://wa.me/233000000000?text=${encodeURIComponent(orderText)}`;
+  const whatsappLink = `https://wa.me/233597832036?text=${encodeURIComponent(orderText)}`;
 
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: 20, fontFamily: "sans-serif", background: "#FFF7ED", minHeight: "100vh" }}>
