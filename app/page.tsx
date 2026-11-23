@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { BUNDLES } from "../lib/bundles";
+import { BUNDLES } from "../Lib/bundles";
 
 export default function Home() {
   const [selected, setSelected] = useState(BUNDLES[0]);
