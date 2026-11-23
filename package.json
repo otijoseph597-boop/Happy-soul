@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start":"typescript": "5.4.5"
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.2.5",
@@ -15,6 +15,6 @@
   "devDependencies": {
     "@types/node": "20.11.0",
     "@types/react": "18.2.0",
-    "typescript": "5.4.0"
+    "typescript": "5.4.5"
   }
 }
